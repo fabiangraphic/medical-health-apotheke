@@ -1,0 +1,2017 @@
+{ box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html .index{
+    background: white;
+}
+
+.container{
+    display: flex;
+    margin-left: -30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.container li{
+    list-style: none;
+    border: 0px;
+    flex-basis: initial;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.container li .covid19{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.container li h3{
+  
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+    padding: 8px;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    color: rgb(0, 104, 56);
+    margin-right: 40px;
+}
+
+.container2{
+    display: flex;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.container2 li{
+    list-style: none;
+    border: 0px;
+    flex-basis: initial;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.container2 li .covid19{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.container2 li h3{
+  
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+    padding: 8px;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    color: rgb(0, 104, 56);
+    margin-right: 40px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(136, 194, 80);
+    width: 1700px;
+    position: relative;   
+}
+
+.grid2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(136, 194, 80);
+    width: 1000px;
+    position: relative;   
+}
+
+.gridshop{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(136, 194, 80);
+    width: 1000px;
+    position: relative;   
+}
+
+.container3{
+    display: flex;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.container3 li{
+    list-style: none;
+    border: 0px;
+    flex-basis: initial;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.container3 li .covid19{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.container3 li h3{
+  
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+    padding: 8px;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    color: rgb(0, 104, 56);
+    margin-right: 40px;
+}
+
+.grid3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(136, 194, 80);
+    width: 1550px;
+    position: relative;   
+}
+
+
+.icon1{
+    position: absolute;
+    top: 1050px;
+    left: 200px;
+}
+
+.icon2{
+    position: absolute;
+    top: 1050px;
+    left: 535px;
+}
+
+.icon3{
+    position: absolute;
+    top: 1050px;
+    left: 945px;
+}
+
+.icon4{
+    position: absolute;
+    top: 1050px;
+    left: 1340px;
+}
+
+.logo img{
+	margin-left: 35px;
+}
+
+.logo2 img{
+    margin-left: 70px;
+}
+
+.Corona-Schnelltest{
+	font-size: 30px;
+	font-family: Helvetica, sans-serif;
+	color: rgb(136, 194, 80);
+	-webkit-text-stroke: 1px black;
+	line-height: 65%;
+	font-weight: bold;
+	position: relative;
+	bottom: 250px;
+	left: 110px;
+
+}
+.button {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 110px;
+	bottom: 240px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.Aufklärung h3{
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 15px;
+}
+
+.Aufklärung p{
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 15px;
+}
+
+.Aufklärung{
+    position: absolute;
+    left: 150px;
+    top: 1200px;
+}
+
+.shop h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 15px; 
+}
+
+.shop p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 15px;  
+}
+.shop{
+    width: 350px;
+    height: 120px;
+    position: absolute;
+    left: 520px;
+    top: 1180px; 
+}
+.angebot h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(136, 194, 80);
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.angebot{
+    width: 350px;
+    height: 155px;
+    position: relative;
+    left: 1300px;
+    top: -245px;
+}
+
+.angebot p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgb(136, 194, 80);
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 104, 56);
+}
+
+.ueberuns h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.ueberuns h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.ueberuns p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.ueberuns{
+    background-color: rgb(0, 104, 56);
+    width: 890px;
+    height: 586px;
+    position: relative;
+    left: 860px;
+    bottom: 630px;
+    margin-bottom: 10px;
+}
+
+.sign img{
+	position: relative;
+	left: 860px;
+	bottom: 900px;
+}
+
+.back {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 75px;
+	bottom: 652px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.team img{
+	margin-left: 0px;
+}
+
+.leistung img{
+	margin-left: 0px;
+}
+
+.back2 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 75px;
+	bottom: 620px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.leistungen h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+.leistungen p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.leistungen li{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}    
+
+.leistungen{
+    background-color: rgb(0, 104, 56);
+    width: 850px;
+    height: 586px;
+    position: relative;
+    left: 890px;
+    bottom: 630px;
+    margin-bottom: 10px;
+}
+
+.kontaktfeld h3{
+	font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.kontaktfeld h1{
+	font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 90px;
+}
+
+.kontaktfeld p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 90px;
+}
+
+.kontaktfeld{
+    background-color: rgb(0, 104, 56);
+    width: 850px;
+    height: 585px;
+    position: relative;
+    left: 890px;
+    bottom: 630px;
+    margin-bottom: 10px;
+}
+
+.karte img{
+	position: relative;
+	left: 290px;
+}
+
+.formular h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.formular{
+    background-color: white;
+    width: 300px;
+    height: 0px;
+    position: relative;
+    left: 80px;
+    top: -1100px;
+}
+
+.formular p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+table .offnungszeit{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(136, 194, 80);
+    position: relative;
+    left: -11px;
+}
+
+table{
+    width: 350px;
+    height: 235px;
+    position: relative;
+    left: 855px;
+    top: 10px;
+}
+
+table .day{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(136, 194, 80);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+}
+
+table .uhr{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(136, 194, 80); 
+    position: relative;
+    bottom: 10px;
+}
+
+.covid19 h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+.covid19 p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.covid19{
+    background-color: rgb(0, 104, 56);
+    width: 500px;
+    height: 900px;
+    position: relative;
+    left: 860px;
+    bottom: 630px;
+    margin-bottom: 10px;
+}
+
+.link p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+.link{
+	position: relative;
+	left: 860px;
+	bottom: 1115px;
+}
+
+.teststation h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+.teststation p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.teststation{
+    background-color: rgb(0, 104, 56);
+    width: 500px;
+    height: 900px;
+    position: relative;
+    left: 1360px;
+    bottom: 1586px;
+    margin-bottom: 10px;
+}
+
+.covidzahl img{
+	position: relative;
+	left: 1352px;
+	bottom: 2200px;
+}
+
+.wert p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 140px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 70px;
+}
+
+.testi img{
+	margin-left: 0px;
+}
+
+.vaccine img{
+	position: relative;
+	left: 40px;
+	bottom: 2050px;
+}
+
+.back3 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 75px;
+	bottom: 1680px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.weitereangebote h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+.weitereangebote p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.weitereangebote{
+    background-color: rgb(0, 104, 56);
+    width: 880px;
+    height: 800px;
+    position: relative;
+    left: 860px;
+    bottom: 630px;
+    margin-bottom: 10px;
+}
+
+.rezept img{
+	position: relative;
+	right:  35px;
+	bottom: 0px;
+}
+
+.notfall img{
+	position: relative;
+	left: 5px;
+	bottom: 1020px;
+}
+
+.back4 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 75px;
+	bottom: 620px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.impress h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.impress h1{
+	font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 90px;
+}
+
+.impress p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+}
+
+.impress{
+    background-color: rgb(0, 104, 56);
+    width: 350px;
+    height: 800px;
+    position: relative;
+    left: 80px;
+    bottom: 565px;
+    margin-bottom: 10px;
+}
+
+
+.rights h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.rights p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+}
+
+.rights{
+    background-color: rgb(0, 104, 56);
+    width: 400px;
+    height: 800px;
+    position: relative;
+    left: 390px;
+    bottom: 1395px;
+    margin-bottom: 10px;
+}
+
+.allgemein h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.allgemein p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 20px;
+}
+
+.allgemein{
+    background-color: rgb(0, 104, 56);
+    width: 850px;
+    height: 800px;
+    position: relative;
+    left: 780px;
+    bottom: 2225px;
+    margin-bottom: 10px;
+}
+
+.back5{
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 75px;
+	bottom: 2215px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+label{
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(0, 104, 56);
+	position: relative;
+	left: 60px;
+	bottom: 1090px;
+}
+
+select{
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(0, 104, 56);
+	position: relative;
+	left: 60px;
+	bottom: 1090px;
+}
+
+input{
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(0, 104, 56);
+	position: relative;
+	left: 60px;
+	bottom: 1090px;
+}
+
+textarea{
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(0, 104, 56);
+	position: relative;
+	right: 20px;
+	bottom: 1060px;
+}
+
+.backnew {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 80px;
+	bottom: 890px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.nutzer h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 10px;
+}
+
+.nutzer p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -35px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.nutzer{
+    background-color: rgb(0, 104, 56);
+    width: 850px;
+    height: 480px;
+    position: relative;
+    right: 0px;
+}
+
+.buttonleistung {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 170px;
+	bottom: 686px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonkontakt {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 300px;
+	bottom: 720px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttoncovid {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 400px;
+	bottom: 754px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonangebote {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 510px;
+	bottom: 788px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonimpressum {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 697px;
+	bottom: 822px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonuns1 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 174px;
+	bottom: 654px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonleistung2 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 170px;
+	bottom: 686px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonkontakt2 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 290px;
+	bottom: 688px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttoncovid2 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 392px;
+	bottom: 722px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonangebote2 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 507px;
+	bottom: 756px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonimpressum2 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 697px;
+	bottom: 790px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonuns2 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 176px;
+	bottom: 904px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonleistungen2 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 290px;
+	bottom: 938px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+ul.navi01{
+	position: relative;
+	bottom: 36px;
+	right: 44px;
+}
+
+.buttoncovid3 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 420px;
+	bottom: 972px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonangebote3 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 533px;
+	bottom: 1006px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonimpressum3 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 722px;
+	bottom: 1040px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonuns3 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 176px;
+	bottom: 1055px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonleistungen3 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 290px;
+	bottom: 1089px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonkontakt3 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 420px;
+	bottom: 1123px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonangebote4 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 522px;
+	bottom: 1157px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonimpressum4 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 713px;
+	bottom: 1191px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+ul.navi{
+	position: relative;
+	bottom: 995px;
+	right: 44px;
+}
+
+.buttonuns4 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 176px;
+	bottom: 904px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonleistungen4 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 290px;
+	bottom: 938px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonkontakt4 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 420px;
+	bottom: 972px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttoncovid4 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 522px;
+	bottom: 1006px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonimpressum5 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 635px;
+	bottom: 1040px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+ul.navi2{
+	position: relative;
+	bottom: 120px;
+	right: 44px;
+}
+
+.buttonuns5 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 176px;
+	bottom: 904px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonleistungen5 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 290px;
+	bottom: 938px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonkontakt5 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 420px;
+	bottom: 972px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttoncovid5 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 522px;
+	bottom: 1006px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonangebote5 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 635px;
+	bottom: 1040px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+ul.navi3{
+	position: relative;
+	bottom: 1361px;
+	right: 44px;
+}
+
+form .buchung{
+	position: relative;
+	left: 200px;
+	bottom:;
+
+}
+div .buchung label{
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(136, 194, 80);
+	position: relative;
+	left: 80px;
+	bottom: 1090px;
+}
+
+div .buchung select{
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(136, 194, 80);
+	position: relative;
+	left: 80px;
+	bottom: 1090px;
+}
+
+div .buchung input{
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(136, 194, 80);
+	position: relative;
+	left: 80px;
+	bottom: 1090px;
+}
+
+textarea{
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(136, 194, 80);
+	position: relative;
+	left: 80px;
+	bottom: 1060px;
+}
+
+div .Senden input{
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(136, 194, 80);
+	position: relative;
+	left: 80px;
+	bottom: 1090px;
+	margin-top: 30px;
+}
+
+div .buchung{
+	position: relative;
+	left: 200px;
+	top: 75px;
+	background color: green;
+	width: 100px;
+	height: 200px;
+}
+
+.ueberuns2 h3{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 104, 56);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.ueberuns2{
+    background-color: rgb(0, 104, 56);
+    width: 1550px;
+    height: 520px;
+    position: relative;
+    left: 80px;
+    bottom: 550px;
+    margin-bottom: 10px;
+}
+
+.buttonuns6 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 176px;
+	bottom: 904px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonleistungen6 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 290px;
+	bottom: 938px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonkontakt6 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 420px;
+	bottom: 972px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttoncovid6 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 522px;
+	bottom: 1006px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonangebote6 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 635px;
+	bottom: 1040px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonimpressum7 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 830px;
+	bottom: 1074px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+ul.navi4{
+	position: relative;
+	top: 155px;
+	right: 44px;
+}
+
+.back6{
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 75px;
+	bottom: 969px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.shopify h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.shopify p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 1px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 45px;
+}
+
+.shopify h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 104, 56);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.shopify{
+    background-color: white;
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    left: 690px;
+    bottom: 1098px;
+    margin-bottom: 10px;
+}
+
+.maskeklein img{
+	position: relative;
+	left: 10px;
+	bottom: 1830px;
+	border: 2px solid black
+}
+
+.masketext img{
+	position: relative;
+	left: 10px;
+	bottom: 1830px;
+	margin-top: 10px;
+	border: 2px solid black
+}
+
+.masketext2 img{
+	position: relative;
+	left: 10px;
+	bottom: 1830px;
+	margin-top: 10px;
+	border: 2px solid black
+}
+
+.ffpsmaske img{
+	position: relative;
+	left: 70px;
+	bottom: 544px;
+	border: none;
+}
+
+.buttonwarenkorb {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 811px;
+	bottom: 1900px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+label .stueck{
+	position: relative;
+	bottom: 1400px;
+	left: 300px;
+}
+
+div.anzahl{
+	position: relative;
+	bottom: 880px;
+	left: 640px;
+}
+
+.shopify2 h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+.shopify2 p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 194, 80);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 1px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 45px;
+}
+
+.shopify2 h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 104, 56);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+.shopify2{
+    background-color: white;
+    width: 350px;
+    height: 810px;
+    position: relative;
+    left: 690px;
+    bottom: 1750px;
+    margin-bottom: 10px;
+}
+
+.desinfektion img{
+	position: relative;
+	right: 600px;
+	bottom: 155px;
+}
+
+.mittel1 img{
+	position: relative;
+	right: 680px;
+	bottom: 600px;
+	border: 2px solid black
+}
+
+.mittel2 img{
+	position: relative;
+	right: 680px;
+	bottom: 600px;
+	margin-top: 10px;
+	border: 2px solid black
+}
+
+.mittel3 img{
+	position: relative;
+	right: 680px;
+	bottom: 600px;
+	margin-top: 10px;
+	border: 2px solid black
+}
+
+.buttonwarenkorb2 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 120px;
+	bottom: 670px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+label .stueck2{
+	position: relative;
+	bottom: 1400px;
+	left: 300px;
+}
+
+div.anzahl2{
+	position: relative;
+	top: 350px;
+	right: 50px;
+}
+
+.back7{
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 10px;
+	bottom: 1090px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonuns7 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 176px;
+	bottom: 904px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonleistungen7 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 290px;
+	bottom: 938px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonkontakt7 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 420px;
+	bottom: 972px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttoncovid7 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 522px;
+	bottom: 1006px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonangebote7 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 635px;
+	bottom: 1040px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+.buttonimpressum8 {
+	font-size: 18px;
+	background: #ebf5d7;
+	color: rgb(0, 104, 56);
+	font-weight: bold;
+	position: relative;
+	left: 830px;
+	bottom: 1074px;
+}
+
+button:focus,
+button:hover {
+	box-shadow: 0 .3em 0.6em rgba(0, 0, 0, .8);
+}
+
+ul.navi5{
+	position: relative;
+	bottom: 578px;
+	right: 40px;
+}
+
+.bereich {
+    background-color: rgb(0, 104, 56);
+    position: absolute;
+    width: 1700px;
+    height: 600px;
+    top: 1010px;
+    left: 48px;
+}
+
+.shoplayout{
+    position: relative;
+    top: 560px;
+    left: 30px;
+}
+
+.shoplayout li{
+    list-style: none;
+}
+
+.fussnote p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 104, 56);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 30px;
+}
+
+.fussnote{
+    background-color: rgb(136, 194, 80);
+    width: 1700px;
+    height: 150px;
+    position: relative;
+    left: 40px;
+    bottom: 52px;
+    margin-bottom: 10px;
+}
